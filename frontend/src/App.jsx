@@ -42,7 +42,7 @@ function App() {
     <div className="App">
       <h2 className="py-5 text-center">&#128248; Like Me &#128248;</h2>
       <div className="row m-auto px-5">
-        <div className="col-12 col-sm-4">
+        <div className="col-lg-4 col-sm-12 mb-4">
           <Form
             setTitulo={setTitulo}
             setImgSRC={setImgSRC}
@@ -50,7 +50,7 @@ function App() {
             agregarPost={agregarPost}
           />
         </div>
-        <div className="col-12 col-sm-8 px-5 row posts align-items-start">
+        <div className="col-lg-8 col-sm-12  row posts align-items-start">
           {posts.map((post, i) => (
             <Post
               key={i}
@@ -61,6 +61,8 @@ function App() {
           ))}
         </div>
       </div>
+      <h2 className="py-5 mt-4 text-center">&#128248; Like Me &#128248;</h2>
+
     </div>
   );
 }

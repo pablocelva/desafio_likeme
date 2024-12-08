@@ -21,6 +21,12 @@ body {
   border: none !important;
 }
 
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+
 .fa-solid {
   color: red;
 }

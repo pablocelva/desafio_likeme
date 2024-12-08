@@ -1,6 +1,6 @@
 function Form({ setTitulo, setImgSRC, setDescripcion, agregarPost }) {
   return (
-    <div className="form">
+    <div className="form border rounded-3 p-3 mb-4">
       <div className="mb-2">
         <h6>Agregar post</h6>
         <label>Título</label>
@@ -23,7 +23,7 @@ function Form({ setTitulo, setImgSRC, setDescripcion, agregarPost }) {
           className="form-control"
         ></textarea>
       </div>
-      <div className="d-flex">
+      <div className="d-flex justify-content-center">
         <button onClick={agregarPost} className="btn btn-light m-auto">
           Agregar
         </button>
